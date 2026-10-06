@@ -1,0 +1,468 @@
+#!/bin/bash
+# ---------------------------------------------------------------------
+#!
+#! C (S) = 1.0 x Omega^-1 * [aa + (1 - aa) * FermiUP(S,tauc,betc) S^sigC ]
+#!
+#! 01 # 0.00  .le.   aa   .le. 1.00 (delta.aa    = 0.10 ) / 11 configs
+#! 02 # 0.10  .le.  taus  .le. 0.50 (delta.cs    = 0.05 ) / 09 configs
+#! 03 # 5.00  .le.  betc  .le. 85.0 (delta.betc  = 10   ) / 09 configs
+#! 04 # 0.05  .le.  sigc  .le. 1.00 (delta.sigC  = 0.05 ) / 20 configs
+#!
+#! B(S)= b x Norm x s^SL x (1 - s)^SR * FermiUP(S,p,bet1) x FermiDO(S,q,bet2)
+#!
+#! 05 # 0.09  .le.    b   .le. 0.99 (delta.b    = 0.10 ) / 10 configs
+#! 06 # 0.00  .le.   SL   .le. 2.00 (delta.SL   = 0.05 ) / 05 configs
+#! 07 # 0.00  .le.   SR   .le. 1.00 (delta.SR   = 1.00 ) / 02 configs
+#! 08 # 12.0  .le.  bet1  .le. 84.0 (delta.bet1 = 12   ) / 07 configs
+#! 09 # 12.0  .le.  bet2  .le. 84.0 (delta.bet2 = 12   ) / 07 configs
+#! 10 # 0.10  .le.    p   .le. 0.40 (delta.p    = 0.10 ) / 04 configs
+#! 11 # 2.00  .le.    q   .le. 2.00 (delta.q    = 0.10 ) / 01 configs (the 3rd conf is q = 2)
+#!
+#! total number of benefit configs:         19 600
+#! total number of cost    configs:         17 820
+#! total number of         configs:    349 272 000
+# ---------------------------------------------------------------------
+cd SRC
+_Make
+cd ..
+# ---------------------------------------------------------------------
+DDD=R01
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 0 : impose that [benefit(s) - cost(s)] < 0 when s -> 1 
+#! IOPT > 0 : impose that [benefit(s) - cost(s)] > 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     1   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     1   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R02
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 0 : impose that [benefit(s) - cost(s)] < 0 when s -> 1 
+#! IOPT > 0 : impose that [benefit(s) - cost(s)] > 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     1   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     1   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R03
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     2   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     2   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R04
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     2   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R05
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     3   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     3   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R06
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     3   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     3   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R07
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     4   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     4   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R08
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     4   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     4   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R09
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     5   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     5   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R10
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     5   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     5   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R11
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     6   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     6   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R12
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     6   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     6   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R13
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     7   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     7   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R14
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     7   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     7   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R15
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     8   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     8   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R16
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     8   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     8   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R17
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     9   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     9   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R18
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "     9   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "     9   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R19
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "    10   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "    10   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R20
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "    10   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "    10   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R21
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "    11   1   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "    11   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------
+DDD=R22
+mkdir -p $DDD
+#! --------------------------------------------------------------------
+#! NOTE: the present code always imposes that configurations for which 
+#!       [benefit(s) - cost(s)] > 0 when s -> 0 are ignored
+#! Furthermore:
+#!
+#! IOPT < 2 : ignore sign of [benefit(s) - cost(s)]     when s -> 1 
+#! IOPT = 2 : impose that    [benefit(s) - cost(s)] < 0 when s -> 1 
+#!
+echo "     1                                          " >> $DDD/inp-s.dat
+echo "    11   2   1   1   1   1   1   1   1   1   3  " >> $DDD/inp-s.dat
+echo "    11   9   9   8  10   5   2   7   7   4   3  " >> $DDD/inp-s.dat
+echo "     2   2   1   1   1   1   1   1   1   1   1  " >> $DDD/inp-s.dat
+cp -f SRC/*.x                                              $DDD/
+
+cd $DDD
+nohup time sroots.x &
+cd ..
+# ---------------------------------------------------------------------

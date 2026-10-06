@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ $# -ne 2 ]; then
+    echo "Enter 2 arguments : "
+    echo "                1 : filename"
+    echo "                2 : array rank"
+    exit 1
+fi
+    echo " "
+    echo " this program uses max.x to compute the maximum of all elements in file " $1
+    echo " -------------------------------------------------------------------------------------------"
+    echo " "
+ln -sf $1   fort.10
+echo   $2 > fort.11
+SRC/max.x
+rm -f fort.10
+rm -f fort.11

@@ -1,0 +1,12 @@
+#!/bin/bash
+#rm *.o
+for filef in *.f
+do
+    if test -f "$filef" 
+    then
+       file="${filef%.*}"
+       # echo $filef
+       echo $file
+       gfortran -O3 -ffixed-line-length-132 $filef -o $file.x
+    fi
+done

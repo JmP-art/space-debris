@@ -1,0 +1,130 @@
+#!/bin/bash
+#
+# ---------------------------------------------------------------------
+cp -f SCRIPTS/10_Sroots_RUN          .
+cp -f SCRIPTS/20_SXhist_RUN          .
+cp -f SCRIPTS/30_SUMALL              .
+cp -f SCRIPTS/CHECK-NonZero          .
+cp -f SCRIPTS/COMPRESS               .
+cp -f SCRIPTS/DECOMPRESS             .
+cp -f SCRIPTS/H1                     .
+cp -f SCRIPTS/MAX                    .
+cp -f SCRIPTS/MONITOR                .
+cp -f SCRIPTS/NONDEGENERATE-HIST     .
+cp -f SCRIPTS/Purge-DAT-Files        .
+cp -f SCRIPTS/Purge-Empty-Files      .
+cp -f SCRIPTS/SUM                    .
+# ---------------------------------------------------------------------
+cd SRC
+_Make
+cd ..
+rm -f nohup-all-out                       2> /dev/null
+echo " -------------------------------------------------------------------------"
+echo " running sroots.x"
+10_Sroots_RUN
+MONITOR sroots.x
+#
+echo " -------------------------------------------------------------------------"
+echo " running sxhist.x with parameter 21"
+20_SXhist_RUN 21
+MONITOR sxhist.x
+#
+echo " running sxhist.x with parameter 22"
+20_SXhist_RUN 22
+MONITOR sxhist.x
+#
+echo " running sxhist.x with parameter 23"
+20_SXhist_RUN 23
+MONITOR sxhist.x
+#
+echo " running sxhist.x with parameter 24"
+20_SXhist_RUN 24
+MONITOR sxhist.x
+#
+echo " -------------------------------------------------------------------------"
+echo " running SUMALL"
+30_SUMALL
+sleep 10
+#
+echo " -------------------------------------------------------------------------"
+echo " collecting nohup.out files..."
+echo " ----------------------------------------------------------------------------------------------------" >> nohup-all-out
+echo " ----------------------------------------------------------------------------------------------------" >> nohup-all-out
+echo "                                                                        R01 :"                         >> nohup-all-out
+echo " ----------------------------------------------------------------------------------------------------" >> nohup-all-out
+cat R01/nohup.out                     >> nohup-all-out
+for i in R02 R03 R04 R05 R06 R07 R08 R09 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22
+do 
+echo " ----------------------------------------------------------------------------------------------------" >> nohup-all-out
+echo " ----------------------------------------------------------------------------------------------------" >> nohup-all-out
+echo "                                                                       " $i"  :"                       >> nohup-all-out
+echo " ----------------------------------------------------------------------------------------------------" >> nohup-all-out
+cat $i/nohup.out                     >> nohup-all-out
+done
+#
+echo " -------------------------------------------------------------------------"
+echo " Cleaning up before compressing..."
+for i in R01 R02 R03 R04 R05 R06 R07 R08 R09 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22
+do 
+cp -f CHECK-NonZero      $i/CHECK-NonZero
+cp -f Purge-Empty-Files  $i/Purge-Empty-Files
+cd $i
+rm -f *.x
+#
+CHECK-NonZero  hist-s-1.dat
+CHECK-NonZero  hist-s-2.dat
+CHECK-NonZero  hist-x-1.dat
+CHECK-NonZero  hist-x-2.dat
+#
+Purge-Empty-Files
+rm -f Purge-Empty-Files
+rm -f CHECK-NonZero
+cd ..
+done
+#
+echo " -------------------------------------------------------------------------"
+echo " storing ALL S-roots for posterior analysis..."
+mkdir -p AnalizeConfig
+for i in R01 R02 R03 R04 R05 R06 R07 R08 R09 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22
+do 
+cat $i/res-s-1.dat  >>  AnalizeConfig/res-s-1.dat
+cat $i/res-s-2.dat  >>  AnalizeConfig/res-s-2.dat
+cat $i/res-s-3.dat  >>  AnalizeConfig/res-s-3.dat
+cat $i/res-s-4.dat  >>  AnalizeConfig/res-s-4.dat
+cat $i/res-s-5.dat  >>  AnalizeConfig/res-s-5.dat
+cat $i/res-s-6.dat  >>  AnalizeConfig/res-s-6.dat
+done
+#
+echo " -------------------------------------------------------------------------"
+echo " compressing directories..."
+COMPRESS
+#
+echo " -------------------------------------------------------------------------"
+echo " checking for empty files..."
+CHECK-NonZero hist-s-1-all.dat
+CHECK-NonZero hist-s-2-all.dat
+CHECK-NonZero hist-x-1-all.dat
+CHECK-NonZero hist-x-2-all.dat
+cp -f Purge-Empty-Files      AnalizeConfig/Purge-Empty-Files
+cd AnalizeConfig
+Purge-Empty-Files
+rm -f Purge-Empty-Files
+cd .. 
+cat nohup-all-out | grep -v elapsed | grep -v pagefaults > XX.X
+mv -f XX.X   nohup-all-out
+Purge-DAT-Files
+# ---------------------------------------------------------------------
+rm -f 10_Sroots_RUN
+rm -f 20_SXhist_RUN
+rm -f 30_SUMALL
+rm -f CHECK-NonZero
+rm -f COMPRESS
+rm -f DECOMPRESS
+rm -f H1
+rm -f MAX
+rm -f MONITOR
+rm -f NONDEGENERATE-HIST
+rm -f Purge-DAT-Files
+rm -f Purge-Empty-Files
+rm -f SUM
+# ---------------------------------------------------------------------

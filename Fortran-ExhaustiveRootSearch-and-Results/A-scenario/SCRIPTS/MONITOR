@@ -1,0 +1,10 @@
+#!/bin/bash
+lines=20
+while [ "$lines" -gt "0" ];
+do
+    ps -ef | grep $1 | grep -v "time" | grep -v "/bin/bash" | grep -v "grep" | wc -l > .yyy
+    read lines < .yyy
+    echo $lines
+    sleep 10
+done
+rm -f .yyy

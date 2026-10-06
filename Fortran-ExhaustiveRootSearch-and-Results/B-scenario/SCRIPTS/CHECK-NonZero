@@ -1,0 +1,13 @@
+#!/bin/bash
+# echo " file " $1 "has the following number of non-zero lines"
+# cat $1 | grep -v 0.0 | wc -l
+cat $1 | grep -v 0.0 | wc -l > .xxx
+read lines filename < .xxx 
+filename=$1
+if [ $lines == 0 ]; then
+  echo "file $1 has $lines non-zero lines; it will be deleted "
+  rm -f $1
+else
+  echo "file $filename has $lines non-zero lines; it will be maintained "
+fi
+rm -f .xxx

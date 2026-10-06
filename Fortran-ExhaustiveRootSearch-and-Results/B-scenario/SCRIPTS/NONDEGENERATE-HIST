@@ -1,0 +1,17 @@
+#!/bin/bash
+if [ $# -ne 2 ]; then
+    echo "Enter 2 arguments : "
+    echo "                1 : filename"
+    echo "                2 : array rank"
+    exit 1
+fi
+    echo " "
+    echo " this program uses nondegenerate-hist.x to compute the histogram of non-degenerate roots in file nondegenerate-"$1
+    echo " -------------------------------------------------------------------------------------------"
+    echo " "
+ln -sf $1   fort.10
+echo   $2 > fort.11
+SRC/nondegenerate-hist.x
+rm -f fort.10
+rm -f fort.11
+mv fort.31 nondegenerate-$1

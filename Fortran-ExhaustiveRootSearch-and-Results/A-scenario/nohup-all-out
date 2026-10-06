@@ -1,0 +1,1536 @@
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R01 :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                 228163.                                  65925.                                   8312.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :            228163.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :             65925.
+number of configs checked   in SROOTS  :              8312.
+number configs with  3  roots          :               450.
+number configs with  1  roots          :              7862.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R02  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                 185790.                                  50608.                                   5522.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :            185790.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :             50608.
+number of configs checked   in SROOTS  :              5522.
+number configs with  3  roots          :               216.
+number configs with  1  roots          :              5306.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R03  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                   1435.                                 282917.                                  18048.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :              1435.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            282917.
+number of configs checked   in SROOTS  :             18048.
+number configs with  3  roots          :              1622.
+number configs with  1  roots          :             16426.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R04  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                   1146.                                 227106.                                  13668.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :              1146.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            227106.
+number of configs checked   in SROOTS  :             13668.
+number configs with  3  roots          :              1572.
+number configs with  1  roots          :             12096.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R05  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                    231.                                 276816.                                  25353.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :               231.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            276816.
+number of configs checked   in SROOTS  :             25353.
+number configs with  3  roots          :              1981.
+number configs with  1  roots          :             23372.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R06  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                    172.                                 221681.                                  20067.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :               172.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            221681.
+number of configs checked   in SROOTS  :             20067.
+number configs with  3  roots          :              1602.
+number configs with  1  roots          :             18465.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R07  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 266787.                                  35613.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            266787.
+number of configs checked   in SROOTS  :             35613.
+number configs with  3  roots          :              1948.
+number configs with  1  roots          :             33665.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R08  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 213649.                                  28271.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            213649.
+number of configs checked   in SROOTS  :             28271.
+number configs with  3  roots          :              2129.
+number configs with  1  roots          :             26142.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R09  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 255132.                                  47268.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            255132.
+number of configs checked   in SROOTS  :             47268.
+number configs with  3  roots          :              2211.
+number configs with  1  roots          :             45057.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R10  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 203807.                                  38113.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            203807.
+number of configs checked   in SROOTS  :             38113.
+number configs with  3  roots          :              2476.
+number configs with  1  roots          :             35637.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R11  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 242110.                                  60290.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            242110.
+number of configs checked   in SROOTS  :             60290.
+number configs with  3  roots          :              2518.
+number configs with  1  roots          :             57772.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R12  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 193672.                                  48248.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            193672.
+number of configs checked   in SROOTS  :             48248.
+number configs with  3  roots          :              2689.
+number configs with  1  roots          :             45559.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R13  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 227559.                                  74841.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            227559.
+number of configs checked   in SROOTS  :             74841.
+number configs with  3  roots          :              2761.
+number configs with  1  roots          :             72080.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R14  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 181547.                                  60373.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            181547.
+number of configs checked   in SROOTS  :             60373.
+number configs with  3  roots          :              2538.
+number configs with  1  roots          :             57835.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R15  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 212600.                                  89800.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            212600.
+number of configs checked   in SROOTS  :             89800.
+number configs with  3  roots          :              3047.
+number configs with  1  roots          :             86753.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R16  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 169828.                                  72092.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            169828.
+number of configs checked   in SROOTS  :             72092.
+number configs with  3  roots          :              2363.
+number configs with  1  roots          :             69729.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R17  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 201544.                                 100856.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            201544.
+number of configs checked   in SROOTS  :            100856.
+number configs with  3  roots          :              2365.
+number configs with  1  roots          :             98491.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R18  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 161136.                                  80784.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            161136.
+number of configs checked   in SROOTS  :             80784.
+number configs with  3  roots          :              1913.
+number configs with  1  roots          :             78871.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R19  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 189769.                                 112631.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            189769.
+number of configs checked   in SROOTS  :            112631.
+number configs with  3  roots          :               361.
+number configs with  1  roots          :            112270.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R20  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 151623.                                  90297.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            151623.
+number of configs checked   in SROOTS  :             90297.
+number configs with  3  roots          :               359.
+number configs with  1  roots          :             89938.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R21  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 182160.                                 120240.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            182160.
+number of configs checked   in SROOTS  :            120240.
+number configs with  1  roots          :            120240.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R22  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 145728.                                  96192.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            145728.
+number of configs checked   in SROOTS  :             96192.
+number configs with  1  roots          :             96192.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R01 :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                 228163.                                  65925.                                   8312.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :            228163.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :             65925.
+number of configs checked   in SROOTS  :              8312.
+number configs with  3  roots          :               450.
+number configs with  1  roots          :              7862.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R02  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                 185790.                                  50608.                                   5522.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :            185790.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :             50608.
+number of configs checked   in SROOTS  :              5522.
+number configs with  3  roots          :               216.
+number configs with  1  roots          :              5306.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R03  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                   1435.                                 282917.                                  18048.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :              1435.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            282917.
+number of configs checked   in SROOTS  :             18048.
+number configs with  3  roots          :              1622.
+number configs with  1  roots          :             16426.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R04  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                   1146.                                 227106.                                  13668.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :              1146.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            227106.
+number of configs checked   in SROOTS  :             13668.
+number configs with  3  roots          :              1572.
+number configs with  1  roots          :             12096.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R05  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                    231.                                 276816.                                  25353.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :               231.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            276816.
+number of configs checked   in SROOTS  :             25353.
+number configs with  3  roots          :              1981.
+number configs with  1  roots          :             23372.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R06  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                    172.                                 221681.                                  20067.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :               172.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            221681.
+number of configs checked   in SROOTS  :             20067.
+number configs with  3  roots          :              1602.
+number configs with  1  roots          :             18465.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R07  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 266787.                                  35613.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            266787.
+number of configs checked   in SROOTS  :             35613.
+number configs with  3  roots          :              1948.
+number configs with  1  roots          :             33665.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R08  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 213649.                                  28271.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            213649.
+number of configs checked   in SROOTS  :             28271.
+number configs with  3  roots          :              2129.
+number configs with  1  roots          :             26142.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R09  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 255132.                                  47268.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            255132.
+number of configs checked   in SROOTS  :             47268.
+number configs with  3  roots          :              2211.
+number configs with  1  roots          :             45057.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R10  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 203807.                                  38113.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            203807.
+number of configs checked   in SROOTS  :             38113.
+number configs with  3  roots          :              2476.
+number configs with  1  roots          :             35637.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R11  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 242110.                                  60290.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            242110.
+number of configs checked   in SROOTS  :             60290.
+number configs with  3  roots          :              2518.
+number configs with  1  roots          :             57772.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R12  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 193672.                                  48248.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            193672.
+number of configs checked   in SROOTS  :             48248.
+number configs with  3  roots          :              2689.
+number configs with  1  roots          :             45559.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R13  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 227559.                                  74841.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            227559.
+number of configs checked   in SROOTS  :             74841.
+number configs with  3  roots          :              2761.
+number configs with  1  roots          :             72080.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R14  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 181547.                                  60373.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            181547.
+number of configs checked   in SROOTS  :             60373.
+number configs with  3  roots          :              2538.
+number configs with  1  roots          :             57835.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R15  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 212600.                                  89800.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            212600.
+number of configs checked   in SROOTS  :             89800.
+number configs with  3  roots          :              3047.
+number configs with  1  roots          :             86753.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R16  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 169828.                                  72092.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            169828.
+number of configs checked   in SROOTS  :             72092.
+number configs with  3  roots          :              2363.
+number configs with  1  roots          :             69729.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R17  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 201544.                                 100856.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            201544.
+number of configs checked   in SROOTS  :            100856.
+number configs with  3  roots          :              2365.
+number configs with  1  roots          :             98491.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R18  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 161136.                                  80784.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            161136.
+number of configs checked   in SROOTS  :             80784.
+number configs with  3  roots          :              1913.
+number configs with  1  roots          :             78871.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R19  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 189769.                                 112631.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            189769.
+number of configs checked   in SROOTS  :            112631.
+number configs with  3  roots          :               361.
+number configs with  1  roots          :            112270.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R20  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 151623.                                  90297.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            151623.
+number of configs checked   in SROOTS  :             90297.
+number configs with  3  roots          :               359.
+number configs with  1  roots          :             89938.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R21  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 302400.                                      0.                                 182160.                                 120240.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            302400.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            182160.
+number of configs checked   in SROOTS  :            120240.
+number configs with  1  roots          :            120240.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+                                                                        R22  :
+ ----------------------------------------------------------------------------------------------------
+    xKOUNTi :                                      0.                                      0.                                      0.                                      0.
+    xKOUNTi :                                 241920.                                      0.                                 145728.                                  96192.
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
+  DATA INFO FOR PROGRAM SROOTS TO BE WRITTEN TO NOHUP.OUT
+ ----------------------------------------------------------------------------------------------------
+number of configs attempted in SROOTS  :            241920.
+ner of confs w/ b(s)-c(s) > 0 as s-> 0 :                 0.
+ner of confs w/ b(s)-c(s) < 0 as s-> 1 :            145728.
+number of configs checked   in SROOTS  :             96192.
+number configs with  1  roots          :             96192.
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24
+ running sxhist.x with parameter  21
+ running sxhist.x with parameter  22
+ running sxhist.x with parameter  23
+ running sxhist.x with parameter  24

@@ -1,0 +1,89 @@
+#!/bin/bash
+# ------------------------------------------------------------------------------------------
+# the program (sumarrays.x) will sum all histograms in sub-directories into a single histogram.
+# this will be done for s-histograms of single, double & triple roots. 
+# histogram with 4 roots is dealt with separately. 
+# ------------------------------------------------------------------------------------------
+cp -f R01/hist-s-1.dat   fort.11
+cp -f R01/hist-s-2.dat   fort.21
+cp -f R01/hist-s-3.dat   fort.31
+cp -f R01/hist-s-4.dat   fort.41
+# ----------------------------------------------------
+for i in R02 R03 R04 R05 R06 R07 R08 R09 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22
+do 
+  echo $i :
+  cp -f SRC/sumarrays.x                       $i/sumarrays.x
+  cd $i
+  mv -f ../fort.11                              .         2> /dev/null
+  mv -f ../fort.21                              .         2> /dev/null
+  mv -f ../fort.31                              .         2> /dev/null
+  cp -f hist-s-1.dat                        fort.12       2> /dev/null
+  cp -f hist-s-2.dat                        fort.22       2> /dev/null
+  cp -f hist-s-3.dat                        fort.32       2> /dev/null
+  cp -f hist-s-4.dat                        fort.42       2> /dev/null
+# ----------------------------------------------------
+  echo "   1 "  >                           fort.10
+  sumarrays.x
+  echo "   2 "  >                           fort.10
+  sumarrays.x
+  echo "   3 "  >                           fort.10
+  sumarrays.x
+  echo "   4 "  >                           fort.10
+  sumarrays.x
+# ----------------------------------------------------
+  mv -f fort.13                          ../fort.11       2> /dev/null
+  mv -f fort.23                          ../fort.21       2> /dev/null
+  mv -f fort.33                          ../fort.31       2> /dev/null
+  mv -f fort.43                          ../fort.41       2> /dev/null
+  rm -f fort.* 
+  cd ..
+# ----------------------------------------------------
+  echo "done with ... " $i
+done 
+mv -f fort.11                           hist-s-1-all.dat  2> /dev/null
+mv -f fort.21                           hist-s-2-all.dat  2> /dev/null
+mv -f fort.31                           hist-s-3-all.dat  2> /dev/null
+mv -f fort.41                           hist-s-4-all.dat  2> /dev/null
+# ------------------------------------------------------------------------------------------
+cp -f R01/hist-x-1.dat   fort.11                          2> /dev/null
+cp -f R01/hist-x-2.dat   fort.21                          2> /dev/null
+cp -f R01/hist-x-3.dat   fort.31                          2> /dev/null
+cp -f R01/hist-x-4.dat   fort.41                          2> /dev/null
+# ----------------------------------------------------
+for i in R02 R03 R04 R05 R06 R07 R08 R09 R10 R11 R12 R13 R14 R15 R16 R17 R18 R19 R20 R21 R22
+do 
+  echo $i :
+  cp -f SRC/sumarrays.x                       $i/sumarrays.x
+  cd $i
+  mv -f ../fort.11                              .         2> /dev/null
+  mv -f ../fort.21                              .         2> /dev/null
+  mv -f ../fort.31                              .         2> /dev/null
+  cp -f hist-x-1.dat                        fort.12       2> /dev/null
+  cp -f hist-x-2.dat                        fort.22       2> /dev/null
+  cp -f hist-x-3.dat                        fort.32       2> /dev/null
+  cp -f hist-x-4.dat                        fort.42       2> /dev/null
+# ----------------------------------------------------
+  echo "   1 "  >                           fort.10
+  sumarrays.x
+  echo "   2 "  >                           fort.10
+  sumarrays.x
+  echo "   3 "  >                           fort.10
+  sumarrays.x
+  echo "   4 "  >                           fort.10
+  sumarrays.x
+# ----------------------------------------------------
+  mv -f fort.13                          ../fort.11       2> /dev/null
+  mv -f fort.23                          ../fort.21       2> /dev/null
+  mv -f fort.33                          ../fort.31       2> /dev/null
+  mv -f fort.43                          ../fort.41       2> /dev/null
+  rm -f fort.* 
+  cd ..
+# ----------------------------------------------------
+  echo "done with ... " $i
+done 
+mv -f fort.11                           hist-x-1-all.dat  2> /dev/null
+mv -f fort.21                           hist-x-2-all.dat  2> /dev/null
+mv -f fort.31                           hist-x-3-all.dat  2> /dev/null
+mv -f fort.41                           hist-x-4-all.dat  2> /dev/null
+# ------------------------------------------------------------------------------------------
+

@@ -1,0 +1,14 @@
+#!/bin/bash
+if [ $# -ne 1 ]; then
+    echo "Enter 1 argument :"
+    echo "               1 : filename"
+    exit 1
+fi
+    echo " "
+    echo " this program uses h1.x to transform a 1D vector into a 1D histogram file in format CSV"
+    echo " --------------------------------------------------------------------------------------"
+    echo " "
+cp -f $1 fort.10
+SRC/h1.x
+mv -f fort.11 $1.csv
+rm -f fort.10

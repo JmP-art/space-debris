@@ -1,0 +1,21 @@
+#!/bin/bash
+for i in res-s-*.dat; do 
+  if [ -e "$i" ] && [ ! -s "$i" ]; then 
+    rm -f $i 
+  fi
+done
+for i in res-x-*.dat; do 
+  if [ -e "$i" ] && [ ! -s "$i" ]; then 
+    rm -f $i 
+  fi
+done
+for i in hist-s-*.dat; do 
+  if [ -e "$i" ] && [ ! -s "$i" ]; then 
+    rm -f $i 
+  fi
+done
+for i in hist-x-*.dat; do 
+  if [ -e "$i" ] && [ ! -s "$i" ]; then 
+    rm -f $i 
+  fi
+done
