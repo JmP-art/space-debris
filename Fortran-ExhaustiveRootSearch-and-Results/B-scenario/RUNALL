@@ -1,6 +1,21 @@
 #!/bin/bash
 #
 # ---------------------------------------------------------------------
+cp -f SCRIPTS/10_Sroots_RUN          .
+cp -f SCRIPTS/20_SXhist_RUN          .
+cp -f SCRIPTS/30_SUMALL              .
+cp -f SCRIPTS/CHECK-NonZero          .
+cp -f SCRIPTS/COMPRESS               .
+cp -f SCRIPTS/DECOMPRESS             .
+cp -f SCRIPTS/H1                     .
+cp -f SCRIPTS/MAX                    .
+cp -f SCRIPTS/MONITOR                .
+cp -f SCRIPTS/NONDEGENERATE-HIST     .
+cp -f SCRIPTS/Purge-DAT-Files        .
+cp -f SCRIPTS/Purge-Empty-Files      .
+cp -f SCRIPTS/SUM                    .
+#
+# ---------------------------------------------------------------------
 cd SRC
 _Make
 cd ..
@@ -99,3 +114,18 @@ cd ..
 cat nohup-all-out | grep -v elapsed | grep -v pagefaults > XX.X
 mv -f XX.X   nohup-all-out
 Purge-DAT-Files
+# ---------------------------------------------------------------------
+rm -f 10_Sroots_RUN
+rm -f 20_SXhist_RUN
+rm -f 30_SUMALL
+rm -f CHECK-NonZero
+rm -f COMPRESS
+rm -f DECOMPRESS
+rm -f H1
+rm -f MAX
+rm -f MONITOR
+rm -f NONDEGENERATE-HIST
+rm -f Purge-DAT-Files
+rm -f Purge-Empty-Files
+rm -f SUM
+# ---------------------------------------------------------------------
